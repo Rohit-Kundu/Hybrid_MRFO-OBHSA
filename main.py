@@ -7,7 +7,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--csv_name', type=str, required = True, help='Name of csv file- Example: SpectEW.csv')
 parser.add_argument('--csv_header', type=str, default = 'no', help='Does csv file have header?: yes/no')
-parser.add_argument('--generations', type=int, default = 5, help='Number of Generations to run the Genetic Algorithm')
+parser.add_argument('--generations', type=int, default = 20, help='Number of Generations to run the Genetic Algorithm')
 parser.add_argument('--popSize', type=int, default = 20, help='Population Size to be used in MRFO and OBHSA')
 args = parser.parse_args()
 
